@@ -10,18 +10,38 @@
 
         <!-- Stylesheets -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="resources/css/style.css">
     </head>
 
     <body>
         <header>
-            <h1>Kathleen Tensfeldt</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="education.html">Education</a>
-                <a href="career.html">Career Experience</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="contact.html">Contact</a>
+            <div class="title">
+                <h1>Kathleen Tensfeldt</h1>
+                <div class="quotation">
+                    <h6 class="quote">"Design is not for philosophy - it's for life."</h6>
+                    <em class="credit">Issey Miyake</em>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon nav-icon"></span>
+                  </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="full-nav navbar-nav">
+                        <li class="nav-item active">
+                            <a id="home-link" class="nav-link navi" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <span>|</span>
+                        <li class="nav-item">
+                            <a id="gal-link" class="nav-link navi" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                        </li>
+                        <span>|</span>
+                        <li class="nav-item">
+                            <a id="cont-link" class="nav-link navi" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
         
