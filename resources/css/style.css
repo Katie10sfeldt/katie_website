@@ -1,0 +1,107 @@
+/*======================================*/
+/* General Site Set Up */
+/*======================================*/
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 16px;
+	height: 100vh;
+	background-color:#fff;
+}
+
+/*======================================*/
+/* Reuseable Components */
+/*======================================*/
+
+/*======================================*/
+/* Headers */
+/*======================================*/
+
+/*======================================*/
+/* Header Section */
+/*======================================*/
+
+header {
+	background-color: #092532;
+	background-image: linear-gradient(#092532d7, #092532d7), url(images/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 7% 15%;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+.title {
+	width: 100%;
+}
+
+.quote,
+.credit {
+	color: #e1ffc2;
+}
+
+.credit {
+	font-size: 90%;
+}
+
+.quotation {
+	text-align: right;
+	margin-top: 20px;
+}
+
+/*===== Nav-Bar =====*/
+.full-nav {
+	width: 100%;
+	align-items: baseline;
+}
+
+.nav-item {
+	align-items: stretch;
+}
+
+.navi {
+	font-size: 20px;
+	margin: 30px 50px auto; 
+	transition: color 0.2s;
+	-webkit-transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	-ms-transition: color 0.2s;
+	-o-transition: color 0.2s;
+}
+
+#home-link:link,
+#home-link:visited,
+#gal-link:link,
+#gal-link:visited,
+#cont-link:link,
+#cont-link:visited {
+	color: #89c9b8;
+}
+
+#home-link:hover,
+#gal-link:hover,
+#cont-link:hover {
+	color: white;
+}
+
+#home-link:active,
+#gal-link:active,
+#cont-link:active{
+	color: #e1ffc2;
+}
+
+ 
+
+
+/*======================================*/
+/* Body Section */
+/*======================================*/
