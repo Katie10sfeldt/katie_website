@@ -1,0 +1,40 @@
+@media screen and (max-width: 992px) {
+
+    .quotation {
+        text-align: center;
+    }
+
+    .my-nav {
+        padding-left: 400px;
+    }
+
+    .headshot {
+        margin-top: 10px;
+        width: 20%;
+    }
+
+    .author {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .my-nav {
+        padding-left: 300px;
+    }
+
+    .headshot {
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .my-nav {
+        padding-left: 230px;
+    }
+
+
+}
