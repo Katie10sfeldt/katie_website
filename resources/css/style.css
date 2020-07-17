@@ -18,8 +18,14 @@ body {
 /*======================================*/
 h1 {
 	font-size: 313%;
+	width: 50%;
+	text-align: left;
 }
 
+h2 {
+	color: #092532;
+	font-size: 250%;
+}
 
 /*======================================*/
 /* Header Section */
@@ -37,7 +43,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
+	text-align: left;
 	padding: 7% 15%;
 }
 
@@ -55,7 +61,7 @@ header {
 }
 
 .quotation {
-	text-align: right;
+	text-align: left;
 	margin-top: 20px;
 }
 
@@ -71,12 +77,12 @@ header {
 
 .navi {
 	font-size: 20px;
-	margin: 30px 50px auto; 
-	transition: color 0.2s;
-	-webkit-transition: color 0.2s;
-	-moz-transition: color 0.2s;
-	-ms-transition: color 0.2s;
-	-o-transition: color 0.2s;
+	margin: 30px 50px auto;
+	transition: color 0.2s, border-bottom 0.2s;
+	-webkit-transition: color 0.2s, border-bottom 0.2s;
+	-moz-transition: color 0.2s, border-bottom 0.2s;
+	-ms-transition: color 0.2s, border-bottom 0.2s;
+	-o-transition: color 0.2s, border-bottom 0.2s;
 }
 
 #home-link:link,
@@ -92,6 +98,7 @@ header {
 #gal-link:hover,
 #cont-link:hover {
 	color: white;
+	border-bottom: 2px solid white;
 }
 
 #home-link:active,
