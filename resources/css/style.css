@@ -7,6 +7,7 @@ body {
 	font-size: 16px;
 	height: 100vh;
 	background-color:#fff;
+	text-align: center;
 }
 
 /*======================================*/
@@ -17,14 +18,18 @@ body {
 /* Headers */
 /*======================================*/
 h1 {
-	font-size: 313%;
-	width: 50%;
-	text-align: left;
+	font-size: 6em;
+	text-align: center;
+	font-family: 'Mr De Haviland', 'Noto Sans JP', sans-serif;
 }
 
 h2 {
 	color: #092532;
 	font-size: 250%;
+}
+
+h5 {
+	font-size: 175%;
 }
 
 /*======================================*/
@@ -43,12 +48,14 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-align: left;
+	text-align: center;
 	padding: 7% 15%;
 }
 
 .title {
 	width: 100%;
+	padding-left: 20px;;
+
 }
 
 .quote,
@@ -61,7 +68,7 @@ header {
 }
 
 .quotation {
-	text-align: left;
+	text-align: center;
 	margin-top: 20px;
 }
 
@@ -107,8 +114,47 @@ header {
 	color: #e1ffc2;
 }
 
- 
+/*========================================================================================*/
+/* Index.HTML Page */
+/*========================================================================================*/
 
+/*======================================*/
+/* About Section */
+/*======================================*/
+
+.basics {
+	padding: 7% 15%;
+}
+
+.basic-list {
+	list-style: none;
+}
+
+.basic-item {
+	margin-top: 10%;
+	padding: 2% 5%;
+}
+
+.descrip {
+	color: #092532;
+	font-size: 115%;
+}
+
+.basic-list ion-icon {
+	font-size: 450%;
+	margin-bottom: 5%;
+	color: #89c9b8;
+}
+
+/*======================================*/
+/* Carousel Section */
+/*======================================*/
+.comp-image, 
+.colab-image, 
+.color-image {
+	filter: brightness(50%);
+	-webkit-filter: brightness(50%);
+}
 
 /*========================================================================================*/
 /* Gallery.HTML Page */
@@ -149,11 +195,11 @@ footer {
 .site {
 	color: #e1ffc2;
 	font-size: 25px;
-	transition: color 0.2s;
-	-webkit-transition: color 0.2s;
-	-moz-transition: color 0.2s;
-	-ms-transition: color 0.2s;
-	-o-transition: color 0.2s;
+	transition: color 0.2s, border-bottom 0.2s;
+	-webkit-transition: color 0.2s, border-bottom 0.2s;
+	-moz-transition: color 0.2s, border-bottom 0.2s;
+	-ms-transition: color 0.2s, border-bottom 0.2s;
+	-o-transition: color 0.2s, border-bottom 0.2s;
 }
 
 .logo-linked:hover {
@@ -167,6 +213,13 @@ footer {
 }
 .logo-code:hover {
 	color: #212121;
+}
+
+.logo-linked:hover, 
+.logo-git:hover, 
+.logo-drib:hover, 
+.logo-code:hover {
+	border-bottom: 2px solid white;
 }
 
 .author {
