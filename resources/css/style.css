@@ -152,9 +152,18 @@ header {
 .comp-image, 
 .colab-image, 
 .color-image {
-	filter: brightness(50%);
-	-webkit-filter: brightness(50%);
+	filter: brightness(40%);
+	-webkit-filter: brightness(40%);
 }
+
+.car-caption {
+	font-size: 125%;
+}
+
+/*======================================*/
+/* Languages Section */
+/*======================================*/
+
 
 /*========================================================================================*/
 /* Gallery.HTML Page */
@@ -173,23 +182,20 @@ header {
 footer {
 	background-color: #393e46;
 	padding: 2% 5%;
+	align-items: center;
 	text-align: center;
-	display: flex;
+	width: 100%;
 }
 
 .socials {
-	margin-left: 20%;
-	width: 30%;
-}
-
-.social-list{
-	list-style: none;
-	text-align: right;
+	text-align: center;
+	
 }
 
 .social-list li {
 	display: inline-block;
-	margin: 5px;
+	list-style: none;
+	padding: 5px 7px;
 }
 
 .site {
@@ -225,27 +231,10 @@ footer {
 .author {
 	color: #e1ffc2;
 	font-weight: 100;
-	display: flex;
-	align-items: center;
-}
-
-.headshot {
-	width: 15%;
-	display: block;
-	margin-right: 10px;
-	border-radius: 100%;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	-ms-border-radius: 100%;
-	-o-border-radius: 100%;
 }
 
 .copyright {
 	color: #e1ffc2;
-	align-content: flex-end;
-	justify-content: center;
-	margin-top: auto;
-	margin-bottom: 0;
 	font-weight: 100;
 	font-size: 12px;
 }
